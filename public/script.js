@@ -203,12 +203,13 @@ chatForm.addEventListener("submit", async (event) => {
         });
 
 
-    } catch (error) {
+        } catch (error) {
 
         console.error(error);
 
-    botContent.textContent =
-    "Maaf, server AI sedang sibuk. Coba lagi beberapa saat.";
+        botContent.textContent =
+            "Maaf, server AI sedang sibuk. Coba lagi beberapa saat.";
+
     } finally {
 
         // Aktifkan kembali input

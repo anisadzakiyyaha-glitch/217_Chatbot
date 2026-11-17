@@ -196,3 +196,7 @@ body {
     cursor: not-allowed;
     transform: none;
 }
+
+.chat-form input::placeholder {
+    color: #9ca3af;
+}

@@ -207,10 +207,8 @@ chatForm.addEventListener("submit", async (event) => {
 
         console.error(error);
 
-        botContent.textContent =
-            "Maaf, terjadi kesalahan: " +
-            error.message;
-
+    botContent.textContent =
+    "Maaf, server AI sedang sibuk. Coba lagi beberapa saat.";
     } finally {
 
         // Aktifkan kembali input
